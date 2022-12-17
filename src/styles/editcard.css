@@ -1,0 +1,200 @@
+img {
+  /* height: 250px; */
+  border-radius: 8px;
+}
+section {
+  background-color: var(--pure);
+  margin-bottom: 10px;
+  border-radius: 10px 0 0 10px;
+}
+.heart {
+  font-size: 35px;
+  color: rgb(182, 173, 173);
+  /* margin-top: 7px; */
+  /* width: 70px; */
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.heart.active {
+  color: red;
+}
+.editcard-wrapper {
+  display: flex;
+  background: none;
+  padding: 30px 50px;
+  justify-content: center;
+  align-items: center;
+}
+.editcard-wrapper div {
+  padding: 10px;
+  padding-top: 0;
+  position: relative;
+}
+.editcard-wrapper div img {
+  height: 450px;
+  width: 550px;
+}
+
+.editcard-wrapper .info .gokul-wrapper span {
+  color: var(--primary);
+  font-weight: 600;
+  margin: 0;
+}
+.editcard-wrapper .info .gokul-wrapper p {
+  color: var(--primary);
+  font-size: 10px;
+  margin: 0;
+}
+.editcard-wrapper .info button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.editcard-wrapper .info .gokul-wrapper h4,
+h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.editcard-wrapper .info .gokul-wrapper h6,
+h4,
+h5 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.editcard-wrapper .info .gokul-wrapper .gokul .flex {
+  padding: 0;
+  margin: 10px 0;
+}
+.editcard-wrapper .info .gokul-wrapper .gokul .flex div {
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  margin-right: 30px;
+}
+
+.gokul2 div {
+  padding: 0;
+  margin-top: 5px;
+  margin-right: 60px;
+  /* padding: 10px;
+    padding-bottom: 0; */
+}
+.gokul2 div {
+  width: 80%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.gokul2 div p {
+  margin: 0;
+  padding: 0;
+}
+.gokul2 div h6 {
+  margin-bottom: 3px;
+}
+span {
+  margin-left: 20px;
+}
+#about {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--secondary);
+}
+.editcard-wrapper .info .btn-wrapper button {
+  margin: 0;
+  margin-left: 10px;
+}
+.section2 {
+  background-color: var(--pure);
+  /* border-radius: 10px; */
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+.layout-img-wrapper {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.layout-img-wrapper .layoutimg-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  padding: 10px;
+}
+.layoutimg-wrapper img {
+  width: 300px;
+  height: 170px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.contact-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-info {
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+  color: var(--pure);
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.contact-info h4 {
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+.contact-info span {
+  padding: 5px;
+}
+.contact-info-wrapper .Map {
+  margin-top: 10px;
+  height: 200px;
+  border-radius: 10px;
+}
+.heading {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+.specifications {
+  height: 100px;
+}
+.elipse {
+  justify-content: center;
+}
+.elipse img {
+  height: 40px;
+  cursor: pointer;
+}
+.elipse div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.elipse p {
+  font-size: 10px;
+}
+
+.elipse:nth-child(2) p {
+  color: #dc1f27;
+}
+.elipse:nth-child(1) p {
+  color: #336ca3;
+}
+.editcard-wrapper .vector {
+  height: 20px;
+  width: 15px;
+  padding: 2px 4px;
+}

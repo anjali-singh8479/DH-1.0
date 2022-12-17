@@ -1,0 +1,10 @@
+.photoedit img{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+#edithide{
+   
+    display: none;
+   
+}
